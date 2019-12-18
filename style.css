@@ -1,0 +1,41 @@
+.btns {
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button {
+    align-items: center;
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    background: rgb(138, 189, 206);
+    color: white;
+}
+
+button:hover {
+    background: rgb(66, 176, 219);
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    width: 550px;
+    height: 550px;
+}
+
+.gridBox {
+    background-color: white;
+    border: 1px solid black;
+}
+
+#containerGrid {
+    margin: auto;
+    width: 50%;
+    width: 550px;
+    height: 550px;
+}
